@@ -736,4 +736,8 @@ function registrarPago(correoSesion, casaSolicitada, fecha, monto, entidadBancar
   } catch (err) {
     return { ok: false, mensaje: 'Error registrando el pago: ' + err.message };
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c42250abf7ce40dec54b02b6bd496a57cc1ef6ef
