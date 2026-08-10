@@ -27,7 +27,7 @@ function doGet(e) {
   if (estadoSistema.estado === 'CERRADO' || estadoSistema.estado === 'MANTENIMIENTO') {
     return construirPaginaBloqueo(estadoSistema);
   }
-  return HtmlService.createHtmlOutputFromFile('Index')
+  return HtmlService.createHtmlOutputFromFile('index')
     .setTitle('Sistema de Administración de Condominios GOS')
     .addMetaTag('viewport', 'width=device-width, initial-scale=1');
 }
